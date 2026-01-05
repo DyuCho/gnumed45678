@@ -102,6 +102,7 @@ def setup_widget_test_env(patient=-1):
 #------------------------------------------------------------------------------
 def __activate_patient(patient=None):
 	if patient is None:
+		setup_widget_test_env(4)
 		return True
 		#.
 	if patient == -1:
